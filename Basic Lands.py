@@ -1,8 +1,7 @@
 '''
-Once per day:
 Check scryfall for every card under full art basic lands excluding online promos.
 Export all image urls
-take those urls and check if any of them are in the url collection (?)
+take those urls and check if any of them are in the spreasheet
 Any that aren't in the URL collection go to spreadsheet, added at bottom
 Profit?
 https://api.scryfall.com/cards/search?q=type:basic+type:land+is:fullart+-is:digital+unique:prints&format=csv
